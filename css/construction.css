@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de atenuación */
+    background-image: url('../assets/construction.jpeg'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    position: fixed; /* Posicionamiento fijo */
+    top: 5%; /* Top a 0 */
+    left: 5%; /* Left a 0 */
+}
+  
+.logo-container img {
+    max-width: 80px; /* Ancho máximo adaptable */
+    height: auto; /* Altura auto para mantener proporciones */
+}
+
+.contenedor {
+    text-align: center;
+    color: white;
+}
+
+.mensaje {
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
