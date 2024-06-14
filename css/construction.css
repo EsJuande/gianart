@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5); /* Color de atenuación */
+    background-color: #1f1f1e;
     background-image: url('../assets/construction.jpeg'); /* Reemplaza con la URL de tu imagen */
     background-size: cover;
     background-position: center;
