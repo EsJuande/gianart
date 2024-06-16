@@ -1,0 +1,7 @@
+1.0
+    - Correcciones pedidas por el cliente.
+    - Se quita la animación del header.
+    - Se agrega versionado en el footer.
+    - Se modifican los mails de los formularios en formspree.
+0.1
+    - Creación de la primer versión del sitio estático.
