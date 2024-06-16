@@ -1,4 +1,4 @@
-const palabras = ["Bigotudo", "Choto", "Quilombero", "Trolo", "Petero"]; // Array con las palabras a mostrar
+const palabras = ["Arte", "Inspiración", "Fantasía", "Pasión", "Magia", "Libertad", "Belleza", "Emoción"]; // Array con las palabras a mostrar
 let indiceActual = 0; // Índice de la palabra actual
 
 const h1Cambiante = document.getElementById('cambiante');

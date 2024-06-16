@@ -90,10 +90,10 @@
                       <h1>
                         GIANART
                       </h1>
-                      <h2>
+                      <h2 style="margin-left: 100px; margin-top: -20px;">
                         es
                       </h2>
-                      <h1 id='cambiante'>
+                      <h1 id='cambiante' style="margin-top: -30px;">
                         
                       </h1>
                     </div>
@@ -400,6 +400,16 @@
     });
   </script>
   <!-- end boton volver arriba -->
+
+  <!-- start evitar click derecho -->
+  <script>
+    document.addEventListener('contextmenu', function(e) {
+      var target = e.target;
+      if (target.tagName.toLowerCase() === 'img') {
+        e.preventDefault();
+      }
+    });
+   </script>
 
 </body>
 
