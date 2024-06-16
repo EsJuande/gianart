@@ -837,6 +837,11 @@ a:focus {
 .btn-volver-arriba a:hover {
   color: white; /* Color de fondo azul oscuro al pasar el mouse */
 }
+
+.h1-logo {
+  font-family: 'Ephesis', sans-serif;
+  text-transform: none;
+}
 /* end boton volver arriba */
 
 /*# sourceMappingURL=style.css.map */
