@@ -750,13 +750,20 @@ a:focus {
 .contenedor-imagenes {
   display: flex;
   flex-wrap: wrap; /* Permite que las imágenes se ajusten en varias filas */
-  justify-content: space-between; /* Distribuye las imágenes con espacio entre ellas */
+  justify-content: space-evenly; /* Distribuye las imágenes con espacio entre ellas */
   margin: 20px;
   align-items: center;
 }
 
+.col-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
 .imagen-vertical {
-  max-width: 300px;
+  max-width: 500px;
   margin-bottom: 20px;
   position: relative; /* Permite posicionar la descripción encima de la imagen */
 }
@@ -794,7 +801,7 @@ a:focus {
 
 .imagen-horizontal {
   max-width: 800px;
-  width: 600px;
+  width: 100%;
   margin-bottom: 20px;
   position: relative; /* Permite posicionar la descripción encima de la imagen */
   align-items: center;
