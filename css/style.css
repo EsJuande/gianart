@@ -76,9 +76,10 @@ body {
 /*header section*/
 .hero_area {
   height: 75vh;
-  background-color: #222222;
-  background-image: url(../assets/construction.jpeg); /* IMAGEN FONDO DE HEADER */
+  background-color: rgba(0, 0, 0, 0.65);
+  background-image: url(../assets/paintings/2024/11_fuga.jpeg); /* IMAGEN FONDO DE HEADER */
   background-size: cover;
+  background-blend-mode: overlay;
 }
 
 .sub_page .hero_area {
@@ -204,7 +205,7 @@ a:focus {
   text-align: center; /* Centra el texto horizontalmente */
   opacity: 0; /* Opacidad inicial 0 (transparente) */
   transition: opacity 1s ease-in-out; /* Animación de opacidad */
-  font-family: 'Ephesis', sans-serif;
+  font-family: 'Fleur+De+Leah', sans-serif;
   text-transform: none;
   font-size: 80px;
 }
@@ -627,7 +628,10 @@ a:focus {
 
 /* end contact section */
 .info_section {
-  background-image: url(../assets/construction.jpeg);
+  background-color: rgba(0, 0, 0, 0.65);
+  background-image: url(../assets/paintings/2024/11_fuga.jpeg); /* IMAGEN FONDO DE HEADER */
+  background-size: cover;
+  background-blend-mode: overlay;
   background-position: bottom;
   color: #ffffff;
   padding: 90px 0 45px 0;
@@ -850,5 +854,65 @@ a:focus {
   text-transform: none;
 }
 /* end boton volver arriba */
+
+
+/* start modal */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  max-width: 100%; /* Permite que el modal ocupe hasta el 90% del ancho de la pantalla */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    padding: 10px; /* Reduce el padding para pantallas pequeñas */
+  }
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  display: block;
+  transform-origin: center center; /* Establece el punto de origen de la transformación */
+  width: 800px; /* Ocupa todo el ancho disponible dentro del modal */
+  height: auto; /* Permite que la imagen se ajuste al tamaño del contenedor */
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoomable-image {
+  position: absolute; /* Posiciona la imagen dentro del contenedor */
+  top: 0;
+  left: 0;
+}
+
+.zoom-controls {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #3d5f46;
+  cursor: pointer;
+}
+/* end modal */
 
 /*# sourceMappingURL=style.css.map */
