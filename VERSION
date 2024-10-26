@@ -1,3 +1,9 @@
+1.2
+    - Se agregan obras del autor
+    - Se implementa un modal para la vista de las imágenes (actualmente desactivado)
+    - Se implementa un zoom y arraste de imágenes para el modal
+    - Se cambia el nombre a Vagliati
+    - Modificaciones en imágnes y contenido de biografía del cliente.
 1.1
     - Corrección en estilos para la muestra de las pinturas
 1.0
